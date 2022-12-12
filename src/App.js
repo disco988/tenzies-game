@@ -80,7 +80,7 @@ React.useEffect(() => {
 
   return(
     <main>
-      {tenzies ? <Confetti/> : ""}
+      {tenzies && <Confetti/> }
       <h1 className="title">Tenzies Game</h1>
             <p className="instructions">Roll until all dice are the same. Click each die to freeze it!</p>
       <div className="container">
