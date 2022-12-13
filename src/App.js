@@ -2,7 +2,7 @@
 import React from "react"
 import Die from "./Die"
 import { nanoid } from "nanoid"
-import Confetti from "react-confetti"
+
 
 
 export default function App() {
@@ -80,7 +80,6 @@ React.useEffect(() => {
 
   return(
     <main>
-      {tenzies && <Confetti/> }
       <h1 className="title">Tenzies Game</h1>
             <p className="instructions">Roll until all dice are the same. Click each die to freeze it!</p>
       <div className="container">
